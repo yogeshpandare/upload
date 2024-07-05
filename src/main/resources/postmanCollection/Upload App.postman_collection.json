@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "9b834321-11a9-4711-8969-77e195300094",
+		"name": "Upload App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "6259543"
+	},
+	"item": [
+		{
+			"name": "GetAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/users"
+			},
+			"response": []
+		},
+		{
+			"name": "UploadCsvFile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/ravir/Downloads/EmployeeSampleData/Employee Sample Data.csv"
+						}
+					]
+				},
+				"url": "http://localhost:8080/api/v1/upload"
+			},
+			"response": []
+		}
+	]
+}

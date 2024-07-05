@@ -1,0 +1,6 @@
+service\upload\service\impl\UploadServiceImpl.class
+service\upload\repository\UploadRepository.class
+service\upload\controller\UploadController.class
+service\upload\UploadApplication.class
+service\upload\service\UploadService.class
+service\upload\model\UserData.class
